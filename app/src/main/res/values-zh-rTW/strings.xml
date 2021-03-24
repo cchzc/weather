@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="title_activity_settings">設定</string>
+
+    <!-- Preference Titles -->
+    <string name="location_header">地區</string>
+
+    <string name="action_settings">設定</string>
+    <string name="preferences_town">鄉鎮</string>
+    <string name="preferences_county">縣市</string>
+    <string name="county">縣市</string>
+    <string name="town">鄉鎮</string>
+</resources>
