@@ -5,5 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/btn_threeDay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginHorizontal="5dp"
+            android:enabled="false"
+            android:text="@string/three_day" />
+
+        <Button
+            android:id="@+id/btn_week"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/one_week" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_data"
+
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContainer" />
 </androidx.constraintlayout.widget.ConstraintLayout>

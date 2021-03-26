@@ -10,4 +10,38 @@
     <string name="preferences_county">縣市</string>
     <string name="county">縣市</string>
     <string name="town">鄉鎮</string>
+    <string name="three_day">3天</string>
+    <string name="one_week">1周</string>
+    <string-array name="windDirection">
+        <item>偏北風</item>
+        <item>東北風</item>
+        <item>偏東風</item>
+        <item>東南風</item>
+        <item>偏南風</item>
+        <item>西南風</item>
+        <item>偏西風</item>
+        <item>西北風</item>
+    </string-array>
+    <string name="comfortIndex">舒適度</string>
+    <string name="uv_index">紫外線</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="day">日</string>
+    <string name="night">夜</string>
+    <string name="temperature">溫度</string>
+    <string name="probability_of_precipitation">降雨</string>
+    <string name="wind">風速</string>
+    <string name="a_temp">體感</string>
+    <string name="relative_humidity">濕度</string>
+    <string name="wind_direction">風向</string>
+    <string name="no_data">No Data.</string>
+    <string-array name="comfortIndex">
+        <item>-</item>
+        <item>非常寒冷</item>
+        <item>寒冷</item>
+        <item>稍有寒意</item>
+        <item>舒適</item>
+        <item>悶熱</item>
+        <item>易中暑</item>
+    </string-array>
 </resources>

@@ -10,4 +10,38 @@
     <string name="preferences_county">County</string>
     <string name="county">County</string>
     <string name="town">Town</string>
+    <string name="three_day">3 Days</string>
+    <string name="one_week">1 Week</string>
+    <string-array name="windDirection">
+        <item>North</item>
+        <item>Northeast</item>
+        <item>East</item>
+        <item>Southeast</item>
+        <item>South</item>
+        <item>Southwest</item>
+        <item>West</item>
+        <item>Northwest</item>
+    </string-array>
+    <string name="comfortIndex">Comfort Index</string>
+    <string name="uv_index">UV</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+    <string name="temperature">Temp.</string>
+    <string name="probability_of_precipitation">PoP.</string>
+    <string name="wind">Wind(Scale)</string>
+    <string name="a_temp">AT</string>
+    <string name="relative_humidity">RH</string>
+    <string name="wind_direction">Wind Dir.</string>
+    <string name="no_data">No Data.</string>
+    <string-array name="comfortIndex">
+        <item>-</item>
+        <item>Extremely Cold</item>
+        <item>Cold</item>
+        <item>Cool</item>
+        <item>Comfortable</item>
+        <item>hot</item>
+        <item>Extremely Hot</item>
+    </string-array>
 </resources>

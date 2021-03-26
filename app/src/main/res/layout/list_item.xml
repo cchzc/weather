@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_dateTime"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="00:00\n03/19\n(Fri.)" />
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1">
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv_weather"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_weather_day_01"
+                    android:text="sunny"/>
+
+                <ImageView
+                    android:id="@+id/iv_temp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="right"
+                    android:src="@drawable/wi_thermometer"
+                    android:text="@string/temperature"/>
+
+                <TextView
+                    android:id="@+id/tv_temp"
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:gravity="center|left"
+                    android:text="24~27"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_rain"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="right"
+                    android:src="@drawable/wi_umbrella"
+                    android:text="@string/probability_of_precipitation" />
+
+                <TextView
+                    android:id="@+id/tv_rain"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:text="20%" />
+
+                <ImageView
+                    android:id="@+id/iv_wind_d_ic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/wi_wind_deg"
+                    android:text="@string/wind_direction" />
+
+                <ImageView
+                    android:id="@+id/iv_wind_ic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/wi_wind_beaufort_0" />
+            </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/iv_comfort"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:src="@drawable/comfort_3"
+                    android:text="@string/comfortIndex" />
+
+                <ImageView
+                    android:id="@+id/iv_a_temp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:src="@drawable/person_thermostat_black_24dp"
+                    android:text="@string/a_temp" />
+
+                <TextView
+                    android:id="@+id/tv_a_temp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:textSize="18sp"
+                    android:text="26~28" />
+
+                <ImageView
+                    android:id="@+id/iv_humidity"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/wi_humidity"
+                    android:text="@string/relative_humidity" />
+
+                <TextView
+                    android:id="@+id/tv_rh"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:text="65%" />
+
+                <ImageView
+                    android:id="@+id/iv_uvi_ic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/wb_sunny_black_24dp"
+                    android:text="@string/uv_index" />
+
+                <TextView
+                    android:id="@+id/tv_uvi"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:text="-" />
+            </TableRow>
+        </TableLayout>
+
+
+
+    </TableRow>
+
+
+
+</TableLayout>
