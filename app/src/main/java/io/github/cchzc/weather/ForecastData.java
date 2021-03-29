@@ -77,7 +77,7 @@ public class ForecastData {
     public enum Type {WEEK, HOUR}
     public enum ComfortIndex {
         NONE(""),ExtremelyCold("Extremely Code"), Cold("Cold"),
-            Cool("Cool"), Comfortable("Confortable"), hot("hot"),
+            Cool("Cool"), Comfortable("Confortable"), Hot("Hot"),
             ExtremelyHot("Extremely Hot");
         private String description="";
         private ComfortIndex(String description){
