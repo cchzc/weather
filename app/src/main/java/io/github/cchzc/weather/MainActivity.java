@@ -96,10 +96,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent = null;
         if(item.getItemId() == R.id.action_settings){
-            Intent intent = new Intent(this, SettingsActivity.class);
-            startActivity(intent);
+             intent = new Intent(this, SettingsActivity.class);
+        } else if(item.getItemId() == R.id.action_help){
+            intent = new Intent(this, HelpActivity.class);
         }
+        startActivity(intent);
         return true;
     }
 

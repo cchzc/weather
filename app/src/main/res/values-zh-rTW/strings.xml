@@ -34,7 +34,8 @@
     <string name="a_temp">體感</string>
     <string name="relative_humidity">濕度</string>
     <string name="wind_direction">風向</string>
-    <string name="no_data">No Data.</string>
+    <string name="no_data">無資料。</string>
+    <string name="action_help">說明</string>
     <string-array name="comfortIndex">
         <item>-</item>
         <item>非常寒冷</item>

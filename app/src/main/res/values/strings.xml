@@ -35,6 +35,7 @@
     <string name="relative_humidity">RH</string>
     <string name="wind_direction">Wind Dir.</string>
     <string name="no_data">No Data.</string>
+    <string name="action_help">Help</string>
     <string-array name="comfortIndex">
         <item>-</item>
         <item>Extremely Cold</item>
