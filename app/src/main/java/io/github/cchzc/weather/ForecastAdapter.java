@@ -106,8 +106,8 @@ public class ForecastAdapter extends BaseAdapter {
                 holder.iv_uvi_ic.setVisibility(View.VISIBLE);
                 holder.tv_uvi.setVisibility(View.VISIBLE);
             }
-            holder.tv_temp.setText(String.format("%d~%d", data.getMinTemp(), data.getMaxTemp()));
-            holder.tv_a_temp.setText(String.format("%d~%d", data.getMinATemp(), data.getMaxATemp()));
+            holder.tv_temp.setText(String.format(Locale.getDefault(), "%d~%d", data.getMinTemp(), data.getMaxTemp()));
+            holder.tv_a_temp.setText(String.format(Locale.getDefault(),"%d~%d", data.getMinATemp(), data.getMaxATemp()));
         }
         holder.tv_rain.setText((data.getRain()> -1) ? data.getRain()+"%" : "-");
         holder.tv_rh.setText(data.getHumidity()+"%");
