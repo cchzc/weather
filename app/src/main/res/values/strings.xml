@@ -36,6 +36,9 @@
     <string name="wind_direction">Wind Dir.</string>
     <string name="no_data">No Data.</string>
     <string name="action_help">Help</string>
+    <string name="template_datetime">00:00\n03/19\n(Fri.)</string>
+    <string name="template_temperature">24~27</string>
+    <string name="template_humidity">20%</string>
     <string-array name="comfortIndex">
         <item>-</item>
         <item>Extremely Cold</item>

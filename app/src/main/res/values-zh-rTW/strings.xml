@@ -36,6 +36,9 @@
     <string name="wind_direction">風向</string>
     <string name="no_data">無資料。</string>
     <string name="action_help">說明</string>
+    <string name="template_datetime">00:00\n03/19\n(五)</string>
+    <string name="template_temperature">24~27</string>
+    <string name="template_humidity">20%</string>
     <string-array name="comfortIndex">
         <item>-</item>
         <item>非常寒冷</item>

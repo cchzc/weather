@@ -11,7 +11,7 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="00:00\n03/19\n(Fri.)" />
+            android:text="@string/template_datetime" />
         <TableLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -19,11 +19,11 @@
             <TableRow>
                 <ImageView
                     android:id="@+id/iv_weather"
-                    android:layout_width="50dp"
+                    android:layout_width="0dp"
                     android:layout_height="35dp"
+                    android:layout_weight="0.1"
                     android:gravity="center"
-                    android:src="@drawable/ic_weather_day_01"
-                    android:text="sunny"/>
+                    android:src="@drawable/ic_weather_day_01"/>
 
                 <ImageView
                     android:id="@+id/iv_temp"
@@ -35,10 +35,11 @@
 
                 <TextView
                     android:id="@+id/tv_temp"
-                    android:layout_width="70dp"
+                    android:layout_width="0dp"
                     android:layout_height="35dp"
+                    android:layout_weight="0.13"
                     android:gravity="center|left"
-                    android:text="24~27"
+                    android:text="@string/template_temperature"
                     android:textSize="18sp" />
 
                 <ImageView
@@ -51,11 +52,12 @@
 
                 <TextView
                     android:id="@+id/tv_rain"
-                    android:layout_width="40dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
                     android:gravity="left|center"
                     android:textSize="18sp"
-                    android:text="20%" />
+                    android:text="@string/template_humidity" />
 
                 <ImageView
                     android:id="@+id/iv_wind_d_ic"
@@ -76,8 +78,9 @@
 
                 <ImageView
                     android:id="@+id/iv_comfort"
-                    android:layout_width="50dp"
+                    android:layout_width="0dp"
                     android:layout_height="35dp"
+                    android:layout_weight="0.1"
                     android:gravity="center"
                     android:src="@drawable/comfort_3"
                     android:text="@string/comfortIndex" />
@@ -92,8 +95,9 @@
 
                 <TextView
                     android:id="@+id/tv_a_temp"
-                    android:layout_width="70dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
                     android:gravity="center|left"
                     android:textSize="18sp"
                     android:text="26~28" />
@@ -107,8 +111,9 @@
 
                 <TextView
                     android:id="@+id/tv_rh"
-                    android:layout_width="40dp"
+                    android:layout_width="0dp"
                     android:layout_height="35dp"
+                    android:layout_weight="0.1"
                     android:gravity="left|center"
                     android:textSize="18sp"
                     android:text="65%" />
