@@ -219,7 +219,7 @@ This project includes icons from https://material.io/resources/icons
 *https://fonts.gstatic.com/s/i/materialicons/sentiment_satisfied/v9/24px.svg copied to app/src/main/res/drawable/comfort_2.xml
 *https://fonts.gstatic.com/s/i/materialicons/sentiment_very_satisfied/v9/24px.svg copied to app/src/main/res/drawable/comfort_3.xml
 *https://fonts.gstatic.com/s/i/materialicons/sentiment_dissatisfied/v9/24px.svg copied to app/src/main/res/drawable/comfort_4.xml
-*https://fonts.gstatic.com/s/i/materialicons/sentiment_very_dissatisfied/v9/24px.svg copied to app/src/main/res/drawable/comfort_5.xml
+*https://fonts.gstatic.com/s/i/materialicons/local_fire_department/v11/24px.svg copied to app/src/main/res/drawable/comfort_5.xml
 *https://fonts.gstatic.com/s/i/materialicons/cloud/v10/24px.svg modified to app/src/main/res/drawable/ic_wb_cloudy_black_24dp.xml
 *https://fonts.gstatic.com/s/i/materialicons/thermostat_auto/v8/24px.svg and https://fonts.gstatic.com/s/i/materialicons/person_add/v11/24px.svg were merged to app/src/main/res/drawable/person_thermostat_black_24dp.xml
 *https://fonts.gstatic.com/s/i/materialiconsoutlined/wb_sunny/v10/24px.svg copied to app/src/main/res/drawable/wb_sunny_black_24dp.xml
