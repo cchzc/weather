@@ -11,7 +11,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
-        versionName '0.1'
+        versionName '1.0'
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -38,7 +38,7 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.13.1'
     implementation 'androidx.preference:preference:1.1.1'
     implementation 'com.google.code.gson:gson:2.8.6'
-    implementation 'org.conscrypt:conscrypt-android:2.5.1'
+    implementation 'org.conscrypt:conscrypt-android:2.5.2'
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
     annotationProcessor 'org.projectlombok:lombok:1.18.18'
     compileOnly 'org.projectlombok:lombok:1.18.18'
